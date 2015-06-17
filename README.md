@@ -14,7 +14,7 @@ To get started:
 1. Run ```npm install```
 2. Run ```npm install -g bower``` (If you don't have bower)
 3. Run ```bower install```
-4. Run ```bower install```
+4. Run ```gulp```
 5. Open a browser and navigate to http://localhost:9000/default.html
 6. Now you can start running you JS implementation of The Game of Life using ES6.
 
