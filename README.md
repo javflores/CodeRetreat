@@ -16,7 +16,7 @@ To get started:
 3. Run ```bower install```
 4. Run ```gulp```
 5. Open a browser and navigate to http://localhost:9000/default.html
-6. Now you can start running you JS implementation of The Game of Life using ES6.
+6. Now you can start running you JS implementation of The Game of Life using ES6. You can use TDD, while doing changes, the browser will be reloaded and tests will be executed automagically.
 
 
 # Rules of Conway's Game of Life
