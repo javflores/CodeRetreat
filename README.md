@@ -4,7 +4,7 @@ Helps getting started with the CodeRetreat exercise.
 
 ### CSharp
 
-In the CS folder you'll find a template project with MSpec already installed.
+In the CS folder you'll find a template project with MSpec already installed. Please enable NCrunch so your tests will run automagically.
 
 ### Javascript
 
