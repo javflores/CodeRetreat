@@ -36,6 +36,9 @@
     <Reference Include="Machine.Specifications.Clr4">
       <HintPath>..\packages\Machine.Specifications.0.10.0-unstable0039\lib\net45\Machine.Specifications.Clr4.dll</HintPath>
     </Reference>
+    <Reference Include="Machine.Specifications.Should">
+      <HintPath>..\packages\Machine.Specifications.Should.0.8.0-Unstable0013\lib\net45\Machine.Specifications.Should.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +50,12 @@
   <ItemGroup>
     <Compile Include="TestApplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TheGameOfLife\TheGameOfLife.csproj">
+      <Project>{661864c1-7b3c-4e5e-9770-01c0196beead}</Project>
+      <Name>TheGameOfLife</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
